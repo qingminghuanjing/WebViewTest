@@ -10,6 +10,9 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
 
@@ -19,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btn_refresh;
     private WebView wView;
     private long exitTime = 0;
+    private List list = new ArrayList();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
